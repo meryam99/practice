@@ -1,1 +1,52 @@
+body {
+margin: 0;
+padding: 0;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.people {
+display: grid;
+// grid-template-rows: 1fr 1fr;
+grid-template-columns: 1fr 1fr;
+grid-gap: 40px;
+
+}
+
+.people__person-photo {
+display: flex;
+position: relative;
+
+
+}
+
+img {
+box-sizing: border-box;
+border-radius: 50%;
+
+}
+
+.rank {
+display: flex;
+background-color: white;
+width: 32px;
+height: 32px;
+line-height: 32px;
+border-radius: 50%;
+justify-content: center;
+position: absolute;
+top: 50%;
+right: 10px;
+font-weight: 700;
+font-size: 16px;
+color: #8B0000;
+}
+
+.name {
+display: flex;
+justify-content: center;
+font-weight: 700;
+font-size: 20px;
+color: #2F4F4F;
+
+}
 
